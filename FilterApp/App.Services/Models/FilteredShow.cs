@@ -2,7 +2,7 @@
 {
     public class FilteredShow
     {
-        public Image image { get; set; }
+        public string image { get; set; }
         public string slug { get; set; }
         public string title { get; set; }
     }

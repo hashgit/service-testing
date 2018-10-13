@@ -21,7 +21,7 @@ namespace App.Services
                         {
                             title = s.title,
                             slug = s.slug,
-                            image = new Image { showImage = s.image?.showImage }
+                            image = s.image?.showImage
                         }
                     )
                     .ToList();
